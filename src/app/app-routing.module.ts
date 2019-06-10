@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import {Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { TeamComponent } from './about/team.component';
+import { TeamComponent } from './team/team.component';
 import { ResourcesComponent } from './resources/resources.component';
 
 
