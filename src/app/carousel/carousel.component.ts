@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
   images = ['/assets/images/Edited2018/Ranking2.jpg',
-    '/assets/images/Edited2019/Seaplane2019_1.jpg', '/assets/images/Edited2018/Seaplane2018_2.jpg'];
+    '/assets/images/Edited2019/Seaplane2019_1.jpg',
+    '/assets/images/Edited2018/Seaplane2018_2.jpg'];
 }
