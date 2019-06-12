@@ -2,30 +2,13 @@
 
 <mat-grid-list cols="3" rowHeight="2:1">
     <!--Photos from 2018-->
-    <mat-grid-tile><img class="image image1" src="/assets/images/PhotosPage/Seaplane2018_2.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/InTheQueue2.jpg" alt="image2"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/JudgesAward1.jpg" alt="image3"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/JudgesAwardStanding1.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Ranking2.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_3.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_5.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_6.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_7.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_8.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_11.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/SeaplaneQue2018_2.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/Seaplane2018_9.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/SeaplaneQueue2018_1.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/SportsmanshipAward.jpg" alt="image2"></mat-grid-tile>
+    <mat-grid-tile *ngFor="let image of images2018">
+        <img class="image image1" src='{{image}}'  alt="image1">
+    </mat-grid-tile>
+
     
     <!--Photos from 2019-->
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/InnovateAwardVictoriaJordan.jpg" alt="image1"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/PreComp2019_1.jpg" alt="image2"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/PreComp2019_2.2.jpg" alt="image3"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/PreComp2019_2.jpg" alt="image4"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/PreComp2019_4.jpg" alt="image6"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/PreComp2019_7.jpg" alt="image7"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/PreComp2019_10.jpg" alt="image8"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/Seaplane2019_1.jpg" alt="image9"></mat-grid-tile>
-    <mat-grid-tile><img class="image" src="/assets/images/PhotosPage/2019/Seaplane2019_2.jpg" alt="image10"></mat-grid-tile>
+    <mat-grid-tile *ngFor="let image of images2019">
+        <img class="image" src="{{image}}" alt="image1">
+    </mat-grid-tile>
 </mat-grid-list>
