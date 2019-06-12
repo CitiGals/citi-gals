@@ -1,2 +1,14 @@
 <h1>Resources</h1>
+
+<team-left *ngFor="let resource of links">
+    <a [href]="resource.link" target="_blank">
+        <img photo class="teamphoto" [src]="resource.photo"  alt="image1">
+    </a>
+        
+    <h2 header>{{resource.title}}</h2>
+    <p text>{{resource.text}}</p>
+</team-left>
+
+
+
 <p>Placeholder Resources</p>

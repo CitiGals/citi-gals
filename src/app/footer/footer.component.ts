@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   constructor() { }
 
+  sociaIcons = ['/assets/images/SocialMediaIcons/gmailIcon.svg',
+  '/assets/images/SocialMediaIcons/instaIcon.svg',
+  '/assets/images/SocialMediaIcons/twitterIcon.svg'
+  ];
+
   ngOnInit() {
   }
 }
