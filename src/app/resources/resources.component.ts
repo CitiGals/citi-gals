@@ -21,15 +21,15 @@ export class ResourcesComponent implements OnInit {
   {title: 'RobotEvents Map',
   text: 'Find robotics competitions in your area!',
   photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/vex map.png',
-  link: 'https://www.girlpowered.com/'},
+  link: 'https://www.robotevents.com/map'},
 
-  {title: 'Stephanie Hannon', text: 'Team Lead',
+  {title: 'Vex Robotics Competition (VRC)', text: 'Current game manual and video.',
   photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/vex robotics competition guide.png',
-  link: 'https://www.girlpowered.com/'},
+  link: 'https://www.vexrobotics.com/vexedr/competition/vrc-current-game'},
 
-  {title: 'Stephanie Hannon', text: 'Team Lead',
+  {title: 'Vex Guide: How To Start a Team', text: 'Information and links to start your own Vex Robotics team.',
   photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/vex startup guidetransparent.png',
-  link: 'https://www.girlpowered.com/'}
+  link: 'https://www.roboticseducation.org/documents/2017/09/how-to-start-and-organize-a-vrc-team.pdf'}
 ];
 
   ngOnInit() {
