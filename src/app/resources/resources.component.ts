@@ -43,12 +43,12 @@ export class ResourcesComponent implements OnInit {
 
   {title: 'Download Vex Coding Studio',
   text: 'Available on both Mac and Windows.',
-  photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/vex map.png',
+  photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/download.png',
   link: 'https://www.robotevents.com/map'},
 
   {title: 'Vex Coding Studio API Reference',
   text: 'Documentation for Vex Coding Studio and Vex C++. This is the best resource for coding for Vex!',
-  photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/vex map.png',
+  photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/api.png',
   link: 'https://www.robotevents.com/map'}
 ];
 
