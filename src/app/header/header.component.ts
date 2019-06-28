@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.sass']
 })
 export class HeaderComponent implements OnInit {
+
   constructor() { }
 
-  ngOnInit() {
+ngOnInit() {
   }
 }

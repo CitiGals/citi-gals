@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import {MatGridListModule} from '@angular/material/grid-list';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 import { AppComponent } from './app.component';
@@ -20,6 +21,7 @@ import { TeamRightComponent } from './team-right/team-right.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { PhotosComponent } from './photos/photos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
 
 
 @NgModule({
@@ -34,7 +36,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TeamLeftComponent,
     TeamRightComponent,
     ContactUsComponent,
-    PhotosComponent
+    PhotosComponent,
+    MobileHeaderComponent
 
   ],
   imports: [
@@ -42,7 +45,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
