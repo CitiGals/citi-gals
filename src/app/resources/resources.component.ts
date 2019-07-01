@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ResourcesComponent implements OnInit {
   constructor() { }
 
-  links = [{title: 'Take the Girl Powered Pledge', 
+  links = [{title: 'Take the Girl Powered Pledge',
             text: 'Pledge to increase the number of women involved in STEM and robotics!',
             photo: '/assets/images/Web page samples and media/Resources link icons/All Finished icons/GPLOGO SNIP beveledTRANSPARENT.png',
             link: 'https://www.girlpowered.com/'},

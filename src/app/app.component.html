@@ -1,5 +1,7 @@
 
-<app-header></app-header>
+
+<app-mobile-header *ngIf="smallViewport"></app-mobile-header>
+<app-header *ngIf="!smallViewport"></app-header>
 
 <router-outlet></router-outlet>
 
