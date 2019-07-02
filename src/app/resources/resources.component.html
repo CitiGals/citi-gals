@@ -1,15 +1,15 @@
-<h1>Resources</h1>
+<h1 id="header">Resources</h1>
 <div class="subheader">
-    <h3>Want to get your own robotics team started?</h3>
-    <h3>Here are some helpful links.</h3>
+    <h3 id="body">Want to get your own robotics team started?</h3>
+    <h3 id="bodyTwo">Here are some helpful links.</h3>
 </div>
 
 
 <a *ngFor="let resource of links" href="{{resource.link}}" target="_blank">
     <team-left>
         <img photo class="teamphoto" src="{{resource.photo}}"  alt="image1">   
-        <h2 header>{{resource.title}}</h2>
-        <p text>{{resource.text}}</p>
+        <h2 header id="headerTwo">{{resource.title}}</h2>
+        <p text id="bodyThree">{{resource.text}}</p>
     </team-left>
 </a>
 
