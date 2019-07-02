@@ -84,7 +84,7 @@ ngOnInit() {
         // console.log('third' + this.smallViewport);
       } else {
         this.smallViewport = false;
-        this.changeElement('header', '3vw');
+        this.changeElement('header', '4.5vw');
         this.changeElement('body', '1.75vw');
         this.changeElement('headerTwo', '3vw');
         this.changeElement('bodyTwo', '1.75vw');

@@ -4,12 +4,19 @@
     <h3 id="bodyTwo">Here are some helpful links.</h3>
 </div>
 
-
-<a *ngFor="let resource of links" href="{{resource.link}}" target="_blank">
+<div *ngIf="!smallViewport">
+    <a *ngFor="let resource of links" href="{{resource.link}}" target="_blank">
     <team-left>
         <img photo class="teamphoto" src="{{resource.photo}}"  alt="image1">   
         <h2 header id="headerTwo">{{resource.title}}</h2>
         <p text id="bodyThree">{{resource.text}}</p>
     </team-left>
-</a>
+    </a>
+</div>
+
+<div *ngIf="smallViewport">
+    <a *ngFor="let resource of links" href="{{resource.link}}" target="_blank">
+        <h2 header style="font-size: 2em; padding: 1em; text-align: center">{{resource.title}}</h2>
+    </a>
+</div>
 

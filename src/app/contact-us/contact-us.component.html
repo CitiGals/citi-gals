@@ -8,7 +8,9 @@
 
 
 <div class="container">
-    <div class="row justify-content-center">
+
+    <!-- EMAIL -->
+    <div *ngIf="!smallViewport" class="row justify-content-center">
         <div class="col-4">
             <a href="mailto:stephaniehannon4@gmail.com" target="_blank">
                 <img src="/assets/images/SocialMediaIcons/gmailIcon2.svg" alt="CircleLogo">
@@ -21,7 +23,14 @@
         </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div *ngIf="smallViewport" style="justify-content: center; text-align: center; padding: 1em">
+                <a href="mailto:stephaniehannon4@gmail.com" target="_blank">
+                    <img src="/assets/images/SocialMediaIcons/gmailIcon2.svg" alt="CircleLogo">
+                </a>
+    </div>
+
+    <!-- INSTA -->
+    <div *ngIf="!smallViewport" class="row justify-content-center">
         <div class="col-4">
             <a href="https://www.instagram.com/citigals/?hl=en" target="_blank">
                 <img src="/assets/images/SocialMediaIcons/instaIcon2.svg" alt="CircleLogo">
@@ -33,7 +42,14 @@
         </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div *ngIf="smallViewport" style="justify-content: center; text-align: center; padding: 1em">
+                <a href="https://www.instagram.com/citigals/?hl=en" target="_blank">
+                    <img src="/assets/images/SocialMediaIcons/instaIcon2.svg" alt="CircleLogo">
+                </a>
+        </div>
+
+    <!-- TWITTER -->
+    <div *ngIf="!smallViewport" class="row justify-content-center">
         <div class="col-4">
             <a href="https://twitter.com/citi_Gals" target="_blank">
                 <img src="/assets/images/SocialMediaIcons/twitterIcon2.svg" alt="CircleLogo">
@@ -44,4 +60,11 @@
             <p>@citi_gals</p>
         </div>
     </div>
+
+    <div *ngIf="smallViewport" style="justify-content: center; text-align: center; padding: 1em">
+                <a href="https://twitter.com/citi_Gals" target="_blank">
+                    <img src="/assets/images/SocialMediaIcons/twitterIcon2.svg" alt="CircleLogo">
+                </a>
+        </div>
+
 </div>

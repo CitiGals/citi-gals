@@ -56,8 +56,8 @@ export class TeamComponent implements OnInit {
             // console.log('third' + this.smallViewport);
           } else {
             this.smallViewport = false;
-            this.changeElement('header', '3vw');
-            this.changeElement('headerTwo', '3vw');
+            this.changeElement('header', '4.5vw');
+            this.changeElement('headerTwo', '4.5vw');
             // console.log('else' + this.smallViewport);
           }
         });
