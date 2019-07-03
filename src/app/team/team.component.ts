@@ -13,17 +13,17 @@ export class TeamComponent implements OnInit {
 
   team = [
     {name: 'Stephanie Hannon', position: 'Team Lead', photo: '/assets/images/LogoCircle.png'},
-    {name: 'Victoria Huang', position: 'Engineering', photo: '/assets/images/Edited_TeamPhotos/Victoria2019_Circular.png'},
+    {name: 'Victoria Huang', position: 'Engineering', photo: '/assets/images/Edited_TeamPhotos/Victoria2019_Circular.jpg'},
     {name: 'Yashika Vadlamani', position: 'Engineering', photo: '/assets/images/LogoCircle.png'},
     {name: 'Lynn Lawry', position: 'Engineering', photo: '/assets/images/LogoCircle.png'},
   ];
 
   teamAlum = [
-    {name: 'Emily Hannon', position: 'Team Founder', photo: '/assets/images/Edited_TeamPhotos/EmilyH2019_Circular.png'},
-    {name: 'Emily Kelsey', position: 'Programming', photo: '/assets/images/Edited_TeamPhotos/EmilyK2019_Circular.png'},
-    {name: 'Farah Contractor', position: 'Engineering', photo: '/assets/images/Edited_TeamPhotos/Farah2019_Circular.png'},
-    {name: 'Kshama Shetty', position: 'Marketing', photo: '/assets/images/Edited_TeamPhotos/Kshama2019_Circular.png'},
-    {name: 'Riya Shah', position: 'Marketing', photo: '/assets/images/Edited_TeamPhotos/Riya2019_Circular.png'},
+    {name: 'Emily Hannon', position: 'Team Founder', photo: '/assets/images/Edited_TeamPhotos/EmilyH2019_Circular.jpg'},
+    {name: 'Emily Kelsey', position: 'Programming', photo: '/assets/images/Edited_TeamPhotos/EmilyK2019_Circular.jpg'},
+    {name: 'Farah Contractor', position: 'Engineering', photo: '/assets/images/Edited_TeamPhotos/Farah2019_Circular.jpg'},
+    {name: 'Kshama Shetty', position: 'Marketing', photo: '/assets/images/Edited_TeamPhotos/Kshama2019_Circular.jpg'},
+    {name: 'Riya Shah', position: 'Marketing', photo: '/assets/images/Edited_TeamPhotos/Riya2019_Circular.jpg'},
     {name: 'Maanasi Vadlamani', position: 'Engineering', photo: '/assets/images/LogoCircle.png'},
     {name: 'Chloe Connor', position: 'Engineering', photo: '/assets/images/LogoCircle.png'},
     {name: 'Jordan Sweeney', position: 'Engineering', photo: '/assets/images/LogoCircle.png'},

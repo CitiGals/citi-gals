@@ -48,6 +48,7 @@ export class ContactUsComponent implements OnInit {
 
           this.changeElement('headerThree', '2.5vw');
           this.changeElement('bodyThree', '2vw');
+          this.changeElement('bodyFour', '2vw');
           // console.log('else' + this.smallViewport);
         }
       });
