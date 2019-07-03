@@ -22,7 +22,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { PhotosComponent } from './photos/photos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
-
+import 'w3-css/w3.css';
 
 @NgModule({
   declarations: [
